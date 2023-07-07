@@ -42,7 +42,7 @@ function Main() {
                   
                   <div className='home'> <Link id="nav"> Home </Link> </div>
                   <div className='home'>  <Link id="nav" to='/Cars'>Cars </Link> </div>
-                  <div className='contact'> <Link id="nav"> Contact </Link> </div>
+                  <div  className="home"> <Link id="nav" to='/Contact'> Contact </Link> </div>
 
                   
               </div>
