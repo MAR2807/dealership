@@ -133,7 +133,7 @@ if (sortedCars.length > 0) {
     <div>
       {carsToDisplay.map((car) => (
         <div className="eachCar" key={car.id}>
-          <img className="car2" src={car.Image}></img>
+          <img alt="logo" className="car2" src={car.Image}></img>
           <div className="carInfo">
             <h4 className="carModel">{car.Make} </h4>
             <p className="carModel">{car.Model + " " + car.Year}</p>
@@ -168,7 +168,7 @@ useEffect(() => {
 <div class="container-fluid">
   <div class="row flex-wrap">
   <div className="col-sm-2  flex-grow-1 invNav">
-    <div className="invLogo"> <img className="invLogo" src={logo}></img></div> 
+    <div className="invLogo"> <img className="invLogo" src={logo} alt="logo"></img></div> 
     <div className="logoText"> <p className="logoText"> New England Motor Cars</p> </div>
 
     <div className="invLinks">

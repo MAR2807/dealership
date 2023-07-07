@@ -37,7 +37,7 @@ function Main() {
       <div className='logoBG'>
         
                         <div className='logo'>
-                           <img src={logo} className='img-fluid logo'></img>
+                           <img src={logo} alt="logo" className='img-fluid logo'></img>
                            <div className='navbar bar'> 
                   
                   <div className='home'> <Link id="nav"> Home </Link> </div>
@@ -51,10 +51,10 @@ function Main() {
 
 
                       <div className='bar2'> 
-                    <img className="logoIcon1" src="https://cdn.cdnlogo.com/logos/t/14/tesla.png"></img>
-                    <img className="logoIcons" src="https://i.pinimg.com/originals/b1/5a/56/b15a56f470a37c225d5acb8071d0b270.png"></img>
-                    <img className="logoIcons" src="https://purepng.com/public/uploads/large/purepng.com-lexus-car-logologocar-brand-logoscarslexus-car-logo-1701527428317c4d82.png"></img>
-                    <img className="logoIcons" src="https://www.freepnglogos.com/uploads/toyota-logo-png/toyota-logos-brands-logotypes-0.png"></img>
+                    <img alt="logo" className="logoIcon1" src="https://cdn.cdnlogo.com/logos/t/14/tesla.png"></img>
+                    <img alt="logo" className="logoIcons" src="https://i.pinimg.com/originals/b1/5a/56/b15a56f470a37c225d5acb8071d0b270.png"></img>
+                    <img alt="logo" className="logoIcons" src="https://purepng.com/public/uploads/large/purepng.com-lexus-car-logologocar-brand-logoscarslexus-car-logo-1701527428317c4d82.png"></img>
+                    <img alt="logo" className="logoIcons" src="https://www.freepnglogos.com/uploads/toyota-logo-png/toyota-logos-brands-logotypes-0.png"></img>
                     </div>
 
                             

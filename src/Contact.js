@@ -15,7 +15,7 @@ function Contact() {
 
         <div className="contactBG">
             <div className="invNav">  
-                    <div className="invLogo2"> <img className="invLogo" src={logo}></img></div> 
+                    <div className="invLogo2"> <img className="invLogo" src={logo} alt="logo"></img></div> 
                     <div className="logoText"> <p className="logoText"> New England Motor Cars</p> </div>
 
                     <div className="invLinks">
@@ -35,7 +35,7 @@ function Contact() {
 
                <div className="messageC"> <textarea id="contactText" placeholder="Type your message here"></textarea> </div>
 
-                <div> <img className="img-fluid logo3" src={logo}></img></div>
+                <div> <img className="img-fluid logo3" src={logo} alt="logo"></img></div>
                <div> <p className="contact3">123 Berkshire ave, springfield, MA </p> <p className="contact3">(123)-456-7890</p> </div>
             </form>
                 
