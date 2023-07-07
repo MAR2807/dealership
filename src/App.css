@@ -1,6 +1,68 @@
 .App {
   text-align: center;
+  background: url("../src/bg2.jpg") no-repeat ;
+  background-size: cover;
+  background-color: black;
+  height: 100vh;
+  width:100vw;
+  overflow-x:hidden;
+  overflow-y:auto;
 }
+@media(max-width:900px){
+  .App{
+    height: 100%;
+  }
+}
+div.invBG {
+  text-align: center;
+  background: url("../src/components/pexels-hyundai-motor-group-11194874.jpg") no-repeat ; 
+  background-color: rgb(0,0,0);
+  background-size: cover;
+  height: 100vh;
+  width:100vw;
+  overflow-x:hidden;
+  position: relative;
+}
+
+
+div.invBG::before {
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100vw;
+  height: 120vh;
+  opacity: 0.6; /* Change the opacity value as needed */
+  background-color: #000;
+}
+
+
+div.contactBG {
+  text-align: center;
+  background: url("../src/components/pexels-hyundai-motor-group-11194874.jpg") no-repeat ; 
+  background-color: rgb(0,0,0);
+  background-size: cover;
+  height: 100vh;
+  width:100vw;
+  overflow-x:hidden;
+  position: relative;
+}
+
+
+div.contactBG::before {
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100vw;
+  height: 120vh;
+  opacity: 0.6; /* Change the opacity value as needed */
+  background-color: #000;
+}
+h2.bottomText{
+  font-family: 'Questrial', sans-serif;
+}
+
 
 .App-logo {
   height: 40vmin;
